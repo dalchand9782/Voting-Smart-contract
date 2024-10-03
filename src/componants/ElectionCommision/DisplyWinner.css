@@ -1,0 +1,22 @@
+.winner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f9f9f9;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.winner-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    background-color: #e8f0fe;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

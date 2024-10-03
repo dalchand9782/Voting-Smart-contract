@@ -1,0 +1,82 @@
+/* Styling for the registration container */
+.register-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .register-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Input fields styling */
+  input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* File input styling */
+  .file-input input[type="file"] {
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+  }
+  
+  /* Button styling */
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styling for form labels */
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .register-container {
+      padding: 15px;
+    }
+  
+    .submit-button {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  

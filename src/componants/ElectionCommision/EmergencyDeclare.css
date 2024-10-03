@@ -1,0 +1,33 @@
+.emergency-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f9f9f9;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.emergency-btn {
+    background-color: #ea4335; /* Google red */
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.emergency-btn:hover {
+    background-color: #d93025; /* Darker red */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.emergency-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(234, 67, 53, 0.3);
+}

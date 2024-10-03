@@ -1,0 +1,40 @@
+.announce-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f9f9f9;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.announce-btn {
+    background-color: #4285f4; /* Google blue */
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.announce-btn:hover {
+    background-color: #357ae8; /* Darker blue */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.winner-label {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+    background-color: #e8f0fe; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
